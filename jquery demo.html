@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<!--script src="jquery-1.version.number.js""><!--/script-->
+	<script src"https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"</script>
+	<script>
+	//for our button
+	$(document).ready(function(){
+		$(button).click(function(){
+			$(".spicy").hide();
+		});
+	});
+	</script>
+	<script>
+		//double click events
+		$(document).ready(function(){
+			$("p").dblclick(function(){
+				$(this).hide();
+			});
+		});
+	</script>
+	<script>
+		$(document).ready(function(){
+			$("p").mouseenter(function(){
+				alert("Warning! You moused over the bacon!");
+			});
+		});
+	</script>
+	<script>
+		$(document).ready(function(){
+			$(document).click(function(){
+				$("#panel").slideToggle("slow");
+			});
+		});
+	</script>
+	<style>
+		#panel, #flip {
+			padding: 5px;
+			text-align: center;
+			background-color: red;
+			border: solid 5px green;
+		}
+	</style>
+	<meta charset="utf-8" />
+	<title>External Library Example</title>
+</head>
+<body>
+	<button>Click me to hide the bacon</button>
+	<h1>Welcome to the Bacon thunderdome</h1>
+	<p class="spicy">Spicy jalapeno bacon ipsum dolor amet jowl sausage tri-tip, jerky alcatra leberkas salami andouille hamburger prosciutto pork chop short loin burgdoggen swine kielbasa. Pork chop pancetta shoulder turducken biltong bacon fatback. Salami pig tail burgdoggen bresaola short ribs turducken andouille landjaeger meatball pork belly swine corned beef rump. Turducken t-bone corned beef bresaola, shoulder venison alcatra capicola ball tip jerky boudin cupim. Beef ribs drumstick capicola cupim rump frankfurter ribeye beef pork loin boudin pork chop short ribs chicken bresaola chuck. Swine drumstick pork chop shoulder, meatball shank short ribs hamburger jerky. Jerky meatloaf bacon boudin alcatra kevin leberkas t-bone pig burgdoggen short ribs ball tip prosciutto swine.</p>
+	<p id="jerky">Biltong pork loin ham, rump doner pastrami ball tip alcatra turkey. T-bone leberkas shoulder bresaola, doner tail boudin biltong chicken brisket bacon alcatra pork belly drumstick. Pancetta pork belly meatloaf t-bone cupim. Jerky kevin pancetta shank picanha shankle doner jowl pastrami drumstick filet mignon pork chop. Burgdoggen biltong ball tip beef ribs, t-bone jerky boudin porchetta filet mignon sirloin drumstick. Short ribs salami shank, corned beef sausage pork belly strip steak. Leberkas porchetta pancetta fatback boudin short loin kielbasa cupim ribeye flank rump short ribs meatloaf picanha prosciutto.</p>
+</body>
+</html>
